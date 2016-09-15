@@ -1,0 +1,139 @@
+<style>
+/* styles for the div */	
+		div.card {
+			background: #fff;
+			/* border-radius: 2px; */
+			display: block;
+			float: left;
+			margin: 1rem;
+			position: relative;
+			
+		}
+			
+		div.cgc-card {
+			/* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+
+/* styles for the fretboard */		
+		rect.cgc.wood	{
+			fill:			#7E7E7E;
+			stroke-width:	1;
+			stroke:			#000000;
+			/* box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+		}
+		
+		table.cgc.table-legend	{
+			table-layout: 	auto-fixed;
+			font-family: 	Consolas, courier;
+		}
+
+		line.cgc.bars {
+			stroke-width:	2;
+			stroke:			#AAAAAA;	
+		}
+		
+		line.cgc.string {
+			stroke-width:	1;
+			stroke:			black;	
+		}
+		
+		text.cgc.label 	{
+							font-size: 		9pt;
+							font-family: 	Consolas, courier;
+							fill: 			#E4E4E4;
+		}
+		
+		text.cgc.copyrightlabel {
+							font-size: 		9pt;
+							font-family: 	Consolas, courier;
+							text-align:		center;
+							text-anchor:    end;
+							fill: 			#E4E4E4;
+		}
+		
+/* styles for the buttons */			
+		
+		button.cgc.root-sel {
+		  color: #fff;
+		  background-color: #d9534f;
+		  border-color: #d43f3a;
+		}
+		
+		button.cgc.maj {
+			background-color: #FEFF46;	
+		}
+		
+		button.cgc.majshape {
+			background-color: #FEFF46;	
+		}
+		
+		button.cgc.min {
+			background-color: #8580F3;	
+			color: #fff;
+		}
+		
+		button.cgc.minshape {
+			background-color: #8580F3;	
+			color: #fff;
+		}
+		
+		button:disabled {
+			background-color: #AFAF94;
+		}
+		
+		button.selected  {	
+			box-shadow:			inset 0px 0px 0px 2px #000;
+			-webkit-box-shadow:	inset 0px 0px 0px 2px #000;
+			-moz-box-shadow: 	inset 0px 0px 0px 2px #000;
+		}
+
+/* styles for the finger circles */		
+		circle.cgc {
+			stroke-width: 	1;
+			stroke: 		black;
+		}
+		
+		circle.cgc.shape 			{fill: 	#DC4226;}
+		circle.cgc.root 			{fill: 	#DC4226;}
+		circle.cgc.yellow 			{fill: 	#FEFF46;}
+		circle.cgc.blue 			{fill: 	#8580F3;}
+		circle.cgc.darkorange 		{fill: 	#FF8523;}
+		circle.cgc.lightorange 	{fill: 	#F9AD44;}
+		circle.cgc.darkviolet 		{fill: 	#AD19F7;}
+		circle.cgc.lightviolet 	{fill: 	#BE68E8;}
+		circle.cgc.blueb5 			{fill: 	#9F9BF3;}
+		circle.cgc.blue7 			{fill: 	#BDBBEF;}
+		circle.cgc.normal 			{fill: 	grey;}
+		circle.cgc.inlaydot 		{fill: 	#E6E6E6;
+								stroke-width: 	0;}
+
+/* styles for the finger text */										
+		text.cgc 			{
+							font-size: 		12pt;
+							font-family: 	Consolas, courier;
+							fill: 			white;
+							text-align:		center;
+							text-anchor:    middle;
+		}
+		  
+		text.cgc.shape 		{		}
+		text.cgc.root 		{fill:	black;}
+		text.cgc.blue 		{		}
+		text.cgc.yellow	 	{fill: 	black;}
+		text.cgc.lightorange 	{fill: 	black;}
+		text.cgc.darkorange 	{fill: 	black;}
+		text.cgc.lightviolet 	{		}
+		text.cgc.darkviolet 	{		}
+		text.cgc.blueb5 		{fill: 	black;}
+		text.cgc.blue7 		{fill: 	black;}
+		
+/* styles for the table */	
+		td.cgc.rowname 		{width: 90px;
+							 height: 34px;}
+		
+    </style>
+	

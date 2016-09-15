@@ -1,0 +1,2627 @@
+[
+    {"id":"root_A",			"name":"A root",		"shift":0},
+	{"id":"root_Bb_Asharp",	"name":"Bb/Asharp root","shift":1},
+	{"id":"root_B",			"name":"B root",		"shift":2},
+	{"id":"root_C",			"name":"C root",		"shift":3},
+	{"id":"root_Db_Csharp",	"name":"Db/Csharp root","shift":4},
+	{"id":"root_D",			"name":"D root",		"shift":5},
+	{"id":"root_Eb_Dsharp",	"name":"Eb/Dsharp root","shift":6},
+	{"id":"root_E",			"name":"E root",		"shift":-5},
+	{"id":"root_F",			"name":"F root",		"shift":-4},
+	{"id":"root_Gb_Fsharp",	"name":"Gb/Fsharp root","shift":-3},
+	{"id":"root_G",			"name":"G root",		"shift":-2},
+	{"id":"root_Ab_Gsharp",	"name":"Ab/Gsharp root","shift":-1},
+	{
+    "id":"root",
+    "name":"root",
+	"offset":5,
+	"notes": [
+			{"s":6, "b": 0, "i":"R", "sy":"root"},
+			{"s":5, "b": 7, "i":"R", "sy":"root"},
+			{"s":4, "b": 2, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"none",
+    "name":"none",
+	"offset":0,
+	"notes": [
+		]
+    },
+	{
+    "id":"A",
+    "name":"A major shape",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C",
+    "name":"C major shape",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D",
+    "name":"D major shape",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E",
+    "name":"E major shape",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G",
+    "name":"G major shape",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 15, "i":"R", "sy":"root"},
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":5, "b": 14, "i":"3", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am",
+    "name":"A minor shape",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 0, "i":"5", "sy":"shape"},
+			{"s":2, "b": 1, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 2, "i":"R", "sy":"root"},
+			{"s":4, "b": 2, "i":"5", "sy":"shape"},
+			{"s":5, "b": 0, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Cm",
+    "name":"C minor shape",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":1, "i":"R", "sy":"root"},
+			{"s":3, "b":0, "i":"5", "sy":"shape"},
+			{"s":4, "b":1, "i":"m3", "sy":"shape"},
+			{"s":5, "b":3, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Dm",
+    "name":"D minor shape",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":1, "i":"m3", "sy":"shape"},
+			{"s":2, "b":3, "i":"R", "sy":"root"},
+			{"s":3, "b":2, "i":"5", "sy":"shape"},
+			{"s":4, "b":0, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Em",
+    "name":"E minor shape",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Gm",
+    "name":"G minor shape",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 3, "i":"5", "sy":"shape"},
+			{"s":3, "b": 3, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 0, "i":"5", "sy":"shape"},
+			{"s":6, "b": 3, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"A|MajPent",
+    "name":"A major shape | Major Pentatonic",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":14, "i":"6", "sy":"yellow"},
+			{"s":2, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":11, "i":"6", "sy":"yellow"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"yellow"},
+			{"s":6, "b":12, "i":"5", "sy":"yellow"},
+			{"s":6, "b":14, "i":"6", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"C|MajPent",
+    "name":"C major shape | Major Pentatonic",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":12, "i":"2", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":12, "i":"6", "sy":"yellow"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"3", "sy":"yellow"},
+			{"s":6, "b":15, "i":"5", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"D|MajPent",
+    "name":"D major shape | Major Pentatonic",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"2", "sy":"yellow"},
+			{"s":5, "b":12, "i":"5", "sy":"yellow"},
+			{"s":5, "b":14, "i":"6", "sy":"yellow"},
+			{"s":6, "b":12, "i":"2", "sy":"yellow"},
+			{"s":6, "b":14, "i":"3", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"E|MajPent",
+    "name":"E major shape | Major Pentatonic",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"yellow"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":11, "i":"2", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":11, "i":"6", "sy":"yellow"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"G|MajPent",
+    "name":"G major shape | Major Pentatonic",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":12, "i":"6", "sy":"yellow"},
+			{"s":1, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":15, "i":"5", "sy":"yellow"},
+			{"s":3, "b":12, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"2", "sy":"yellow"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"6", "sy":"yellow"},
+			{"s":5, "b":12, "i":"2", "sy":"yellow"},
+			{"s":5, "b":14, "i":"3", "sy":"shape"},
+			{"s":6, "b":12, "i":"6", "sy":"yellow"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"A|Ionian",
+    "name":"A major shape | Ionian",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":14, "i":"6", "sy":"yellow"},
+			{"s":2, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"6", "sy":"yellow"},
+			{"s":3, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"yellow"},
+			{"s":6, "b":12, "i":"5", "sy":"yellow"},
+			{"s":6, "b":14, "i":"6", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"C|Ionian",
+    "name":"C major shape | Ionian",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":12, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":12, "i":"2", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":12, "i":"6", "sy":"yellow"},
+			{"s":5, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"3", "sy":"yellow"},
+			{"s":6, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":6, "b":15, "i":"5", "sy":"yellow"}				
+		]
+    },
+	{
+    "id":"D|Ionian",
+    "name":"D major shape | Ionian",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":2, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"2", "sy":"yellow"},
+			{"s":5, "b":12, "i":"5", "sy":"yellow"},
+			{"s":5, "b":14, "i":"6", "sy":"yellow"},
+			{"s":6, "b":12, "i":"2", "sy":"yellow"},
+			{"s":6, "b":14, "i":"3", "sy":"yellow"},
+			{"s":6, "b":15, "i":"4", "sy":"darkorange"}
+		]
+    },
+	{
+    "id":"E|Ionian",
+    "name":"E major shape | Ionian",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"yellow"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":11, "i":"2", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":11, "i":"6", "sy":"yellow"},
+			{"s":4, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"G|Ionian",
+    "name":"G major shape | Major Ionian scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":12, "i":"6", "sy":"yellow"},
+			{"s":1, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":1, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"5", "sy":"yellow"},
+			{"s":3, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":12, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"2", "sy":"yellow"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"6", "sy":"yellow"},
+			{"s":5, "b":12, "i":"2", "sy":"yellow"},
+			{"s":5, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":6, "b":12, "i":"6", "sy":"yellow"},
+			{"s":6, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"A|Lydian",
+    "name":"A major shape | Lydian",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":14, "i":"6", "sy":"yellow"},
+			{"s":2, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":11, "i":"6", "sy":"yellow"},
+			{"s":3, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":13, "i":"#4", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"yellow"},
+			{"s":6, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":6, "b":12, "i":"5", "sy":"yellow"},
+			{"s":6, "b":14, "i":"6", "sy":"yellow"}		
+		]
+    },
+	{
+    "id":"C|Lydian",
+    "name":"C major shape | Lydian",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":14, "i":"#4", "sy":"lightorange"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":12, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":12, "i":"2", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":12, "i":"6", "sy":"yellow"},
+			{"s":5, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"3", "sy":"yellow"},
+			{"s":6, "b":14, "i":"#4", "sy":"lightorange"},
+			{"s":6, "b":15, "i":"5", "sy":"yellow"}				
+		]
+    },
+	{
+    "id":"D|Lydian",
+    "name":"D major shape | Lydian",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":2, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":13, "i":"#4", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"2", "sy":"yellow"},
+			{"s":5, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":5, "b":12, "i":"5", "sy":"yellow"},
+			{"s":5, "b":14, "i":"6", "sy":"yellow"},
+			{"s":6, "b":12, "i":"2", "sy":"yellow"},
+			{"s":6, "b":14, "i":"3", "sy":"yellow"}
+		]
+    },
+	{
+    "id":"E|Lydian",
+    "name":"E major shape | Lydian",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"yellow"},
+			{"s":2, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":11, "i":"2", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":11, "i":"6", "sy":"yellow"},
+			{"s":4, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":13, "i":"#4", "sy":"lightorange"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"G|Lydian",
+    "name":"G major shape | Lydian scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":12, "i":"6", "sy":"yellow"},
+			{"s":1, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":1, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":14, "i":"#4", "sy":"lightorange"},
+			{"s":2, "b":15, "i":"5", "sy":"yellow"},
+			{"s":3, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":12, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"2", "sy":"yellow"},
+			{"s":4, "b":11, "i":"#4", "sy":"lightorange"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"6", "sy":"yellow"},
+			{"s":5, "b":12, "i":"2", "sy":"yellow"},
+			{"s":5, "b":14, "i":"3", "sy":"shape"},
+			{"s":6, "b":12, "i":"6", "sy":"yellow"},
+			{"s":6, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"A|Mixoly",
+    "name":"A major shape | Mixolydian scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":14, "i":"6", "sy":"yellow"},
+			{"s":1, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":2, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"6", "sy":"yellow"},
+			{"s":3, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"yellow"},
+			{"s":6, "b":12, "i":"5", "sy":"yellow"},
+			{"s":6, "b":14, "i":"6", "sy":"yellow"},
+			{"s":6, "b":15, "i":"b7", "sy":"darkorange"}
+		]
+    },
+	{
+    "id":"C|Mixoly",
+    "name":"C major shape | Mixolydian scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":12, "i":"2", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":12, "i":"6", "sy":"yellow"},
+			{"s":5, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"3", "sy":"yellow"},
+			{"s":6, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":6, "b":15, "i":"5", "sy":"yellow"}				
+		]
+    },
+	{
+    "id":"D|Mixoly",
+    "name":"D major shape | Mixolydian scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"2", "sy":"yellow"},
+			{"s":5, "b":12, "i":"5", "sy":"yellow"},
+			{"s":5, "b":14, "i":"6", "sy":"yellow"},
+			{"s":5, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":6, "b":12, "i":"2", "sy":"yellow"},
+			{"s":6, "b":14, "i":"3", "sy":"yellow"},
+			{"s":6, "b":15, "i":"4", "sy":"darkorange"}
+		]
+    },
+	{
+    "id":"E|Mixoly",
+    "name":"E major shape | Mixolydian scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"yellow"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":2, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"2", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":11, "i":"6", "sy":"yellow"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"yellow"}			
+		]
+    },
+	{
+    "id":"G|Mixoly",
+    "name":"G major shape | Mixoly scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":12, "i":"6", "sy":"yellow"},
+			{"s":1, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":1, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"5", "sy":"yellow"},
+			{"s":3, "b":12, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"2", "sy":"yellow"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b":12, "i":"2", "sy":"yellow"},
+			{"s":5, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":6, "b":12, "i":"6", "sy":"yellow"},
+			{"s":6, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"A|chord_delta",
+    "name":"A major shape | delta chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 12, "i":"5", "sy":"shape"},
+			{"s":2, "b": 14, "i":"3", "sy":"shape"},
+			{"s":3, "b": 13, "i":"7", "sy":"lightorange"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_delta",
+    "name":"C major shape | delta chord",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":2, "b":12, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|chord_delta",
+    "name":"D major shape | delta chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_delta",
+    "name":"E major shape | delta chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_delta",
+    "name":"G major shape | delta chord",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 14, "i":"7", "sy":"lightorange"},
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"}			
+		]
+    },
+	{
+    "id":"A|chord_7",
+    "name":"A major shape | 7 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_7",
+    "name":"C major shape | 7 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|chord_7",
+    "name":"D major shape | 7 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_7",
+    "name":"E major shape | 7 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_7",
+    "name":"G major shape | 7 chord",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 13, "i":"b7", "sy":"darkorange"},
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"}			
+		]
+    },
+	{
+    "id":"A|chord_sus2",
+    "name":"A major shape | sus2 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 12, "i":"2", "sy":"yellow"},
+			{"s":3, "b": 14, "i":"R", "sy":"root"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_sus2",
+    "name":"D major shape | sus2 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_sus2",
+    "name":"G major shape | sus2 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 15, "i":"5", "sy":"shape"},
+			{"s":3, "b": 14, "i":"2", "sy":"yellow"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"A|chord_sus4",
+    "name":"A major shape | sus4 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_sus4",
+    "name":"C major shape | sus4 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|chord_sus4",
+    "name":"D major shape | sus4 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_sus4",
+    "name":"E major shape | sus4 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_sus4",
+    "name":"G major shape | sus4 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 13, "i":"4", "sy":"darkorange"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"A|chord_7sus4",
+    "name":"A major shape | 7sus4 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 15, "i":"4", "sy":"darkorange"},
+			{"s":3, "b": 12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_7sus4",
+    "name":"C major shape | 7sus4 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|chord_7sus4",
+    "name":"D major shape | 7sus4 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":15, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_7sus4",
+    "name":"E major shape | 7sus4 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_7sus4",
+    "name":"G major shape | 7sus4 chord",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 13, "i":"b7", "sy":"darkorange"},	
+			{"s":2, "b": 13, "i":"4", "sy":"darkorange"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"}			
+		]
+    },
+	{
+    "id":"A|chord_11",
+    "name":"A major shape | 11 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 12, "i":"2", "sy":"yellow"},
+			{"s":3, "b": 12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b": 12, "i":"4", "sy":"darkorange"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|chord_11",
+    "name":"C major shape | 11 chord",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|chord_11",
+    "name":"D major shape | 11 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":12, "i":"4", "sy":"darkorange"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_11",
+    "name":"G major shape | 11 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 13, "i":"4", "sy":"darkorange"},	
+			{"s":3, "b": 14, "i":"2", "sy":"yellow"},
+			{"s":4, "b": 15, "i":"b7", "sy":"darkorange"},
+			{"s":6, "b": 15, "i":"R", "sy":"shape"}			
+		]
+    },
+	{
+    "id":"A|chord_add9",
+    "name":"A major shape | add9 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 14, "i":"3", "sy":"shape"},
+			{"s":3, "b": 16, "i":"2", "sy":"yellow"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_add9",
+    "name":"C major shape | add9 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"E|chord_add9",
+    "name":"E major shape | add9 chord",
+	"offset":5,
+	"notes": [
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":16, "i":"2", "sy":"yellow"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_add9",
+    "name":"G major shape | add9 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 14, "i":"2", "sy":"yellow"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"A|chord_delta9",
+    "name":"A major shape | delta 9 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b":12, "i":"2", "sy":"yellow"},
+			{"s":3, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_delta9",
+    "name":"D major shape | delta 9 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_delta9",
+    "name":"E major shape | delta 9 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":14, "i":"2", "sy":"yellow"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"C|chord_9",
+    "name":"C major shape | 9 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_9",
+    "name":"D major shape | 9 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_9",
+    "name":"E major shape | 9 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":11, "i":"2", "sy":"yellow"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"}
+		]
+    },
+	{
+    "id":"A|chord_7sharp9",
+    "name":"A major shape | 7#9 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b":13, "i":"#2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|chord_7sharp9",
+    "name":"C major shape | 7#9 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":16, "i":"#2", "sy":"yellow"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_7sharp9",
+    "name":"D major shape | 7#9 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"#2", "sy":"yellow"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"A|chord_7flat9",
+    "name":"A major shape | 7b9 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b":11, "i":"b2", "sy":"yellow"},
+			{"s":3, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|chord_7flat9",
+    "name":"C major shape | 7b9 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":14, "i":"b2", "sy":"yellow"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_7flat9",
+    "name":"D major shape | 7b9 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":11, "i":"b2", "sy":"yellow"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":11, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"A|chord_7sharp5",
+    "name":"A major shape | 7#5 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 13, "i":"#5", "sy":"darkorange"},
+			{"s":2, "b": 14, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"E|chord_7sharp5",
+    "name":"E major shape | 7#5 chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":13, "i":"#5", "sy":"darkorange"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"A|chord_6",
+    "name":"A major shape| 6 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 14, "i":"6", "sy":"yellow"},
+			{"s":2, "b": 14, "i":"3", "sy":"shape"},
+			{"s":3, "b": 14, "i":"R", "sy":"root"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"C|chord_6",
+    "name":"C major shape | 6 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_6",
+    "name":"D major shape | 6 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|chord_6",
+    "name":"E major shape | 6 chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_6",
+    "name":"G major shape | 6 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 14, "i":"6", "sy":"yellow"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|chord_69",
+    "name":"C major shape | 69 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":15, "i":"2", "sy":"yellow"},
+			{"s":3, "b":14, "i":"6", "sy":"yellow"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"D|chord_69",
+    "name":"D major shape | 69 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"yellow"},
+			{"s":2, "b":12, "i":"6", "sy":"yellow"},
+			{"s":3, "b":11, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|chord_69",
+    "name":"G major shape | 69 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 15, "i":"5", "sy":"shape"},
+			{"s":3, "b": 14, "i":"2", "sy":"yellow"},
+			{"s":4, "b": 14, "i":"6", "sy":"yellow"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"A|chord_13",
+    "name":"A major shape| 13 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 14, "i":"6", "sy":"yellow"},
+			{"s":2, "b": 14, "i":"3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"E|chord_13",
+    "name":"E major shape | 13 chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":14, "i":"6", "sy":"yellow"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"A|arp_delta",
+    "name":"A major shape | delta arpeggio",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|arp_delta",
+    "name":"C major shape | delta arpeggio",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":12, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|arp_delta",
+    "name":"D major shape | delta arpeggio",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":14, "i":"7", "sy":"lightorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|arp_delta",
+    "name":"E major shape | delta arpeggio",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":11, "i":"7", "sy":"lightorange"},
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":13, "i":"7", "sy":"lightorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|arp_delta",
+    "name":"G major shape | delta arpeggio",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 14, "i":"7", "sy":"lightorange"},
+			{"s":1, "b": 15, "i":"R", "sy":"root"},
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":3, "b": 11, "i":"7", "sy":"lightorange"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":5, "b": 14, "i":"3", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"A|arp_7",
+    "name":"A major shape | 7 arpeggio",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":3, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":11, "i":"3", "sy":"yellow"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"C|arp_7",
+    "name":"C major shape | 7 arpeggio",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":12, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"5", "sy":"yellow"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"D|arp_7",
+    "name":"D major shape | 7 arpeggio",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"darkorange"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":11, "i":"3", "sy":"yellow"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"E|arp_7",
+    "name":"E major shape | 7 arpeggio",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"7", "sy":"darkorange"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"darkorange"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":11, "i":"3", "sy":"yellow"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}
+		]
+    },
+	{
+    "id":"G|arp_7",
+    "name":"G major shape | 7 arpeggio",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 13, "i":"b7", "sy":"darkorange"},
+			{"s":1, "b": 15, "i":"R", "sy":"root"},
+			{"s":2, "b": 12, "i":"3", "sy":"shape"},
+			{"s":2, "b": 15, "i":"5", "sy":"yellow"},
+			{"s":3, "b": 12, "i":"R", "sy":"root"},
+			{"s":4, "b": 12, "i":"5", "sy":"shape"},
+			{"s":4, "b": 15, "i":"b7", "sy":"darkorange"},
+			{"s":5, "b": 14, "i":"3", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|MinPent",
+    "name":"A minor shape | Minor Pentatonic Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Cm|MinPent",
+    "name":"C minor shape | Minor Pentatonic Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Dm|MinPent",
+    "name":"D minor shape | Minor Pentatonic Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Em|MinPent",
+    "name":"E minor shape | Minor Pentatonic Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|MinPent",
+    "name":"G minor shape | Minor Pentatonic Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|Aeolian",
+    "name":"A minor shape | Aeolian Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":13, "i":"b6", "sy":"darkviolet"},	
+			{"s":6, "b":15, "i":"b7", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Cm|Aeolian",
+    "name":"C minor shape | Aeolian Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":1, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"lightviolet"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"},	
+			{"s":6, "b":16, "i":"b6", "sy":"darkviolet"}			
+		]
+    },
+	{
+    "id":"Dm|Aeolian",
+    "name":"D minor shape | Aeolian Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Em|Aeolian",
+    "name":"E minor shape | Aeolian Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":11, "i":"2", "sy":"lightviolet"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|Aeolian",
+    "name":"G minor shape | Aeolian Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":2, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|Dorian",
+    "name":"A minor Shape | Dorian Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":3, "b":11, "i":"6", "sy":"lightviolet"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":14, "i":"6", "sy":"lightviolet"},	
+			{"s":6, "b":15, "i":"b7", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Cm|Dorian",
+    "name":"C minor shape | Dorian Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":15, "i":"2", "sy":"lightviolet"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},	
+			{"s":5, "b":12, "i":"6", "sy":"lightviolet"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"}		
+		]
+    },
+	{
+    "id":"Dm|Dorian",
+    "name":"D minor shape | Dorian Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":12, "i":"6", "sy":"lightviolet"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Em|Dorian",
+    "name":"E minor shape | Dorian Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":11, "i":"2", "sy":"lightviolet"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":4, "b":11, "i":"6", "sy":"lightviolet"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|Dorian",
+    "name":"G minor shape | Dorian Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":12, "i":"6", "sy":"lightviolet"},
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":12, "i":"2", "sy":"lightviolet"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":12, "i":"6", "sy":"lightviolet"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|Phrygian",
+    "name":"A minor shape | Phrygian Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":3, "b":15, "i":"b2", "sy":"darkviolet"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":13, "i":"b6", "sy":"darkviolet"},	
+			{"s":6, "b":15, "i":"b7", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Cm|Phrygian",
+    "name":"C minor shape | Phrygian Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":1, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":14, "i":"b2", "sy":"darkviolet"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":5, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"},	
+			{"s":6, "b":16, "i":"b6", "sy":"darkviolet"}			
+		]
+    },
+	{
+    "id":"Dm|Phrygian",
+    "name":"D minor shape | Phrygian Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Em|Phrygian",
+    "name":"E minor shape | Phrygian Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"b2", "sy":"darkviolet"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|Phrygian",
+    "name":"G minor shape | Phrygian Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":1, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":2, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":16, "i":"b2", "sy":"darkviolet"}
+		]
+    },
+	{
+    "id":"Am|PhrygDom",
+    "name":"A minor shape | Phrygian Dominant Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":14, "i":"3", "sy":"shape"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":3, "b":15, "i":"b2", "sy":"darkviolet"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":5, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":5, "b":16, "i":"3", "sy":"blue"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":13, "i":"b6", "sy":"darkviolet"},	
+			{"s":6, "b":15, "i":"b7", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Cm|PhrygDom",
+    "name":"C minor shape | Phrygian Dominant Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":1, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":14, "i":"b2", "sy":"darkviolet"},
+			{"s":2, "b":17, "i":"3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":5, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"},	
+			{"s":6, "b":16, "i":"b6", "sy":"darkviolet"}			
+		]
+    },
+	{
+    "id":"Dm|PhrygDom",
+    "name":"D minor shape | Phrygian Dominant Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":14, "i":"3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":4, "b":16, "i":"3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":14, "i":"3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Em|PhrygDom",
+    "name":"E minor shape | Phrygian Dominant Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":1, "b":16, "i":"3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":13, "i":"3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"b2", "sy":"darkviolet"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":5, "b":15, "i":"b6", "sy":"darkviolet"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":6, "b":16, "i":"3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|PhrygDom",
+    "name":"G minor shape | Phrygian Dominant Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":1, "b":16, "i":"b2", "sy":"darkviolet"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":2, "b":16, "i":"b6", "sy":"darkviolet"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":13, "i":"b2", "sy":"darkviolet"},
+			{"s":3, "b":16, "i":"3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":13, "i":"b6", "sy":"darkviolet"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":14, "i":"3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":16, "i":"b2", "sy":"darkviolet"}
+		]
+    },
+	{
+    "id":"Am|Blues",
+    "name":"A minor shape | Blues Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":15, "i":"b7", "sy":"blue"}		
+		]
+    },
+	{
+    "id":"Cm|Blues",
+    "name":"C minor shape | Blues  Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":4, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Dm|Blues",
+    "name":"D minor shape | Blues Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":1, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":16, "i":"b5", "sy":"blueb5"}
+		]
+    },
+	{
+    "id":"Em|Blues",
+    "name":"E minor shape | Blues Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":3, "b":15, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|Blues",
+    "name":"G minor shape | Blues Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|Conspirian",
+    "name":"A minor shape | Conspirian Scale",
+	"offset":0,
+	"notes": [
+			{"s":1, "b":12, "i":"5", "sy":"shape"},
+			{"s":1, "b":15, "i":"b7", "sy":"blue"},
+			{"s":1, "b":16, "i":"7", "sy":"blue7"},
+			{"s":2, "b":15, "i":"4", "sy":"blue"},
+			{"s":2, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"b7", "sy":"blue"},
+			{"s":3, "b":13, "i":"7", "sy":"blue7"},
+			{"s":4, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"5", "sy":"blue"},
+			{"s":6, "b":15, "i":"b7", "sy":"blue"},
+			{"s":6, "b":16, "i":"7", "sy":"blue7"}			
+		]
+    },
+	{
+    "id":"Cm|Conspirian",
+    "name":"C minor shape | Conspirian  Scale",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":13, "i":"4", "sy":"blue"},
+			{"s":1, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":16, "i":"7", "sy":"blue7"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"4", "sy":"blue"},
+			{"s":4, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":13, "i":"b7", "sy":"blue"},
+			{"s":5, "b":14, "i":"7", "sy":"blue7"},
+			{"s":5, "b":15, "i":"R", "sy":"root"},
+			{"s":6, "b":13, "i":"4", "sy":"blue"},
+			{"s":6, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":15, "i":"5", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Dm|Conspirian",
+    "name":"D minor shape | Conspirian Scale",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":15, "i":"4", "sy":"blue"},
+			{"s":1, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":14, "i":"7", "sy":"blue7"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":3, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"},
+			{"s":5, "b":12, "i":"5", "sy":"blue"},
+			{"s":5, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":16, "i":"7", "sy":"blue7"},
+			{"s":6, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"4", "sy":"blue"},
+			{"s":6, "b":16, "i":"b5", "sy":"blueb5"}
+		]
+    },
+	{
+    "id":"Em|Conspirian",
+    "name":"E minor shape | Conspirian Scale",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":2, "b":16, "i":"7", "sy":"blue7"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":14, "i":"4", "sy":"blue"},
+			{"s":3, "b":15, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"7", "sy":"blue7"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":12, "i":"4", "sy":"blue"},
+			{"s":5, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}				
+		]
+    },
+	{
+    "id":"Gm|Conspirian",
+    "name":"G minor shape | Conspirian Scale",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":14, "i":"7", "sy":"blue7"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":13, "i":"4", "sy":"blue"},
+			{"s":2, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":16, "i":"7", "sy":"blue7"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":15, "i":"4", "sy":"blue"},
+			{"s":5, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":13, "i":"b7", "sy":"blue"},
+			{"s":6, "b":14, "i":"7", "sy":"blue7"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|chord_m7",
+    "name":"A minor shape | m7 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 12, "i":"5", "sy":"shape"},
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"blue"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Cm|chord_m7",
+    "name":"C minor shape | m7 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":16, "i":"m3", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Dm|chord_m7",
+    "name":"D minor shape | m7 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Em|chord_m7",
+    "name":"E minor shape | m7 chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Gm|chord_m7",
+    "name":"G minor shape | m7 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 3, "i":"5", "sy":"shape"},
+			{"s":3, "b": 3, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 3, "i":"b7", "sy":"blue"},
+			{"s":6, "b": 3, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|chord_m7flat5",
+    "name":"A minor shape | m7b5 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"blue"},
+			{"s":4, "b": 13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Cm|chord_m7flat5",
+    "name":"C minor shape | m7b5 chord",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Dm|chord_m7flat5",
+    "name":"D minor shape | m7b5 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":3, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Em|chord_m7flat5",
+    "name":"E minor shape | m7b5 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":15, "i":"m3", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":15, "i":"b5", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Gm|chord_m7flat5",
+    "name":"G minor shape | m7b5 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 14, "i":"b5", "sy":"blue"},
+			{"s":3, "b": 15, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 15, "i":"b7", "sy":"blue"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|chord_dim",
+    "name":"A minor shape | diminished chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b":13, "i":"m3", "sy":"shape"},
+			{"s":3, "b":11, "i":"bb7", "sy":"blue"},
+			{"s":4, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Dm|chord_dim",
+    "name":"D minor shape | diminished chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":12, "i":"bb7", "sy":"blue"},
+			{"s":3, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}	
+		]
+    },{
+    "id":"Gm|chord_dim",
+    "name":"G minor shape | diminished chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 14, "i":"b5", "sy":"blue"},
+			{"s":3, "b": 15, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 14, "i":"bb7", "sy":"blue"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|chord_mdelta",
+    "name":"A minor shape | m delta chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 13, "i":"7", "sy":"blue"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Cm|chord_mdelta",
+    "name":"C minor shape | m delta chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":12, "i":"7", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Dm|chord_mdelta",
+    "name":"D minor shape | m delta chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":14, "i":"7", "sy":"blue"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Gm|chord_mdelta",
+    "name":"G minor shape | m delta chord",
+	"offset":2,
+	"notes": [
+			{"s":1, "b": 14, "i":"7", "sy":"blue"},
+			{"s":2, "b": 15, "i":"5", "sy":"shape"},
+			{"s":3, "b": 15, "i":"m3", "sy":"shape"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|chord_m11",
+    "name":"A minor shape | m 11 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"blue"},
+			{"s":4, "b": 12, "i":"4", "sy":"blue"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Dm|chord_m11",
+    "name":"D minor shape | m 11 chord",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"4", "sy":"blue"},
+			{"s":4, "b":12, "i":"R", "sy":"root"}	
+		]
+    },
+	{
+    "id":"Gm|chord_m11",
+    "name":"G minor shape | m11 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 13, "i":"4", "sy":"blue"},
+			{"s":3, "b": 15, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 15, "i":"b7", "sy":"blue"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|chord_madd9",
+    "name":"A minor shape | madd9 chord",
+	"offset":0,
+	"notes": [
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 16, "i":"2", "sy":"lightviolet"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Em|chord_madd9",
+    "name":"E minor shape | madd9 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":16, "i":"2", "sy":"lightviolet"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Cm|chord_m9",
+    "name":"C minor shape | m9 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":15, "i":"2", "sy":"lightviolet"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Em|chord_m9",
+    "name":"E minor shape | m9 chord",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":14, "i":"2", "sy":"lightviolet"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Am|chord_min6",
+    "name":"A minor shape | min6 chord",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 14, "i":"6", "sy":"lightviolet"},
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 14, "i":"R", "sy":"root"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Cm|chord_min6",
+    "name":"C minor shape | min6 chord",
+	"offset":-3,
+	"notes": [
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Em|chord_min6",
+    "name":"E minor shape | min6 chord",
+	"offset":5,
+	"notes": [
+			{"s":2, "b":14, "i":"6", "sy":"lightviolet"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":6, "b":12, "i":"R", "sy":"root"}		
+		]
+    },
+	{
+    "id":"Gm|chord_min6",
+    "name":"G minor shape | min6 chord",
+	"offset":2,
+	"notes": [
+			{"s":2, "b": 15, "i":"5", "sy":"shape"},
+			{"s":3, "b": 15, "i":"m3", "sy":"shape"},
+			{"s":4, "b": 14, "i":"6", "sy":"lightviolet"},
+			{"s":6, "b": 15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Am|arp_m7",
+    "name":"A minor shape | m7 arpeggio",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 12, "i":"5", "sy":"shape"},
+			{"s":1, "b": 15, "i":"b7", "sy":"blue"},
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":3, "b": 12, "i":"b7", "sy":"blue"},
+			{"s":3, "b": 14, "i":"R", "sy":"root"},
+			{"s":4, "b": 14, "i":"5", "sy":"shape"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"},
+			{"s":5, "b": 15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Cm|arp_m7",
+    "name":"C minor shape | m7 arpeggio",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":15, "i":"5", "sy":"blue"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":12, "i":"5", "sy":"shape"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Dm|arp_m7",
+    "name":"D minor shape | m7 arpeggio",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":14, "i":"5", "sy":"shape"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Em|arp_m7",
+    "name":"E minor shape | m7 arpeggio",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":14, "i":"5", "sy":"shape"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Gm|arp_m7",
+    "name":"G minor shape | m7 arpeggio",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":15, "i":"5", "sy":"shape"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":12, "i":"5", "sy":"shape"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    },
+	{
+    "id":"Am|arp_m7flat5",
+    "name":"A minor shape | m7b5 arpeggio",
+	"offset":0,
+	"notes": [
+			{"s":1, "b": 15, "i":"b7", "sy":"blue"},
+			{"s":2, "b": 13, "i":"m3", "sy":"shape"},
+			{"s":2, "b": 16, "i":"b5", "sy":"blueb5"},
+			{"s":3, "b": 12, "i":"b7", "sy":"blue"},
+			{"s":3, "b": 14, "i":"R", "sy":"root"},
+			{"s":4, "b": 13, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b": 12, "i":"R", "sy":"root"},
+			{"s":5, "b": 15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Cm|arp_m7flat5",
+    "name":"C minor shape | m7b5 arpeggio",
+	"offset":-3,
+	"notes": [
+			{"s":1, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"R", "sy":"root"},
+			{"s":2, "b":16, "i":"m3", "sy":"blue"},
+			{"s":3, "b":15, "i":"b7", "sy":"blue"},
+			{"s":4, "b":13, "i":"m3", "sy":"shape"},
+			{"s":4, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":5, "b":15, "i":"R", "sy":"root"}			
+		]
+    },
+	{
+    "id":"Dm|arp_m7flat5",
+    "name":"D minor shape | m7b5 arpeggio",
+	"offset":-5,
+	"notes": [
+			{"s":1, "b":13, "i":"m3", "sy":"shape"},
+			{"s":1, "b":16, "i":"b5", "sy":"blueb5"},
+			{"s":2, "b":13, "i":"b7", "sy":"blue"},
+			{"s":2, "b":15, "i":"R", "sy":"root"},
+			{"s":3, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"R", "sy":"root"},
+			{"s":4, "b":15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Em|arp_m7flat5",
+    "name":"E minor shape | m7b5 arpeggio",
+	"offset":5,
+	"notes": [
+			{"s":1, "b":12, "i":"R", "sy":"root"},
+			{"s":1, "b":15, "i":"m3", "sy":"blue"},
+			{"s":2, "b":12, "i":"5", "sy":"shape"},
+			{"s":2, "b":15, "i":"b7", "sy":"blue"},
+			{"s":3, "b":12, "i":"m3", "sy":"shape"},
+			{"s":3, "b":15, "i":"b5", "sy":"blueb5"},
+			{"s":4, "b":12, "i":"b7", "sy":"blue"},
+			{"s":4, "b":14, "i":"R", "sy":"root"},
+			{"s":5, "b":13, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":12, "i":"R", "sy":"root"},
+			{"s":6, "b":15, "i":"m3", "sy":"blue"}
+		]
+    },
+	{
+    "id":"Gm|arp_m7flat5",
+    "name":"G minor shape | m7b5 arpeggio",
+	"offset":2,
+	"notes": [
+			{"s":1, "b":13, "i":"b7", "sy":"blue"},
+			{"s":1, "b":15, "i":"R", "sy":"blue"},
+			{"s":2, "b":14, "i":"b5", "sy":"blueb5"},
+			{"s":3, "b":12, "i":"R", "sy":"blue"},
+			{"s":3, "b":15, "i":"m3", "sy":"shape"},
+			{"s":4, "b":15, "i":"b7", "sy":"blue"},
+			{"s":5, "b":13, "i":"m3", "sy":"blue"},
+			{"s":5, "b":17, "i":"b5", "sy":"blueb5"},
+			{"s":6, "b":15, "i":"R", "sy":"root"}				
+		]
+    }
+]
